@@ -1,0 +1,312 @@
+* {    
+    font-family: 'Roboto';
+}
+.container {
+    position: relative;
+    max-width: 1440px !important;
+    margin: auto;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 1110px;
+    margin: auto;
+}
+.nav-bar ul {
+    width: 245px;
+    height: 24px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-left: 0px;
+}
+.nav-bar .logo {
+    margin: auto;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 38px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.nav-bar .btn-buy-now {
+    width: 160px;
+    height: 26px;
+    background-color: #111B47;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.introduce {
+    width: 539.37px;
+    height: 421px;
+    top: 303px;
+    left: 163.12px;
+    position: absolute;
+}
+.introduce .introduce-title {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 66px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+.introduce .introduce-body {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.introduce .introduce-btn {
+    display: flex;
+}
+.introduce .introduce-btn .btn-purchase {
+    width: 189.13px;
+    height: 36px;
+    top: 344px;
+    background-color: #111B47;
+    position: absolute;
+    border: 2px solid #091133
+}
+.introduce .introduce-btn .btn-purchase p{
+    width: 189px;
+    height: 26px;
+    top: 5px;
+    color: #FFFFFF;
+        font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin: auto;
+}
+.introduce .introduce-btn .btn-learn-more {
+    width: 189.13px;
+    height: 36px;
+    top: 344px;
+    left: 223px;
+    background-color: #FFFFFF;
+    position: absolute;
+    border: 2px solid #091133
+}
+.introduce .introduce-btn .btn-learn-more p{
+    width: 189px;
+    height: 26px;
+    margin: auto;
+    background-color: #FFFFFF;
+        font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.banner {
+    position: absolute;
+    width: 1490.03px;
+    height: 1161px;
+    left: 417.29px;
+}
+.content {
+    width: 1110px;
+    height: 742px;
+    margin: 1110px 0px 0px 165px;
+}
+
+.content .content-left {
+    margin-top: 160px;
+}
+.content .content-left-title {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #091133;
+}
+.content .content-left-body {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #6F7CB2;
+    top: 64px;
+}
+.content .content-item {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    margin-top: 80px;
+}
+.content .content-item  .content-item-title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #091133;
+}
+.content .content-item .content-item-body {
+        font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #5D6970;
+}
+.content .content-right{
+    margin-top: 109.65px;
+}
+
+.content_2 {
+    width: 1110px;
+    height: 569px;
+    margin: 0px 0px 0px 165px;
+}
+.content_2 .content_2-left img {
+    margin-top: 122.44px;
+}
+.content_2 .content_2-right {
+    width: 445px;
+    height: 228px;
+    margin: 172px 0px 0px 100px;
+}
+.content_2 .content_2-right .content_2-right--title {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.content_2 .content_2-right .content_2-right--body {
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+/* .banner-footer img{
+    top: 3600px;
+    position: relative;
+    margin-left: -12px;
+} */
+.banner-footer{
+    /* top: 3600px; */
+    background-image: url('./assets/level2/Rectangle.png');
+    /* position: relative; */
+    margin-left: -12px;
+    height: 938px;
+    width: 1440px;
+}
+.banner-footer .banner-footer-content {
+    width: 600px;
+    height: 116.31px;
+    margin: auto;
+    padding-top: 237px;
+}
+.banner-footer .banner-footer-content h4 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 16px;
+}
+.banner-footer .banner-footer-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.banner-footer .banner-footer-content h3 {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 66px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.banner-footer .banner-footer-content h5 {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #37447E;
+    margin-top: 0px;
+    margin-bottom: 90px;
+}
+.banner-footer .banner-footer-content button {
+    width: 189px;
+    height: 31.81px;
+    top: 4207.86px;
+    left: 625px;
+    background-color: #111B47;
+    color: #FFFFFF;
+}
+
+.footer {
+    width: 1440px;
+    height: 216px;
+    background-color: #E7ECFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: -12px;
+    margin-top: -172px;
+}
+.footer-item {
+    width: 1110px;
+    margin: auto;
+}
+.footer-item .footer-item-logo{
+    width: 1110px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #CDD1D4;
+    padding: 40px 0;
+}
+.footer-item .footer-item-logo h4 {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 38px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 0 auto;
+}
+.footer-item .footer-item-logo button {
+    width: 109px;
+    height: 26px;
+    top: 4479px;
+    left: 1166px;
+    background-color: #111B47;
+    color: #FFFFFF;
+}
+.footer-item .footer-item-nav {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-item .footer-item-nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 254px;
+    padding: 15px 0;
+    opacity: 0.5;
+}
